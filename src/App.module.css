@@ -1,0 +1,19 @@
+.form {
+  width: 100%;
+  max-width: 900px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 1px solid #1565c0;
+  padding: 20px;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mobile {
+  flex-direction: column;
+}

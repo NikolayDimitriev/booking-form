@@ -27,7 +27,7 @@ export const Dropdown: FC<TDropdown> = ({
   };
 
   return (
-    <FormControl sx={{ m: 1, minWidth: 120 }} size="medium">
+    <FormControl sx={{ mb: 2, mr: 1, minWidth: 200 }} size="medium">
       <InputLabel id="tower">{title}</InputLabel>
       <Select
         labelId="tower-label"
